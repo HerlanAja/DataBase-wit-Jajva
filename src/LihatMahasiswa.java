@@ -11,8 +11,6 @@ public class LihatMahasiswa {
        Connection connection = null; //manages connection
        Statement statement = null; //query statement
        ResultSet resultSet = null; //manage results
-       //JDBC driver name and database URL
-       
        String DRIVER = "com.mysql.cj.jdbc.Driver";
        String DB_URL = "jdbc:mysql://localhost/akademik";
        String usr ="root";
